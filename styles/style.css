@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(../images/sakura.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: auto;
+    background: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+
+}
+a:visited{
+    color: rgb(6, 4, 4);
+}
+
+a:hover{
+    color: rgb(252, 0, 0);
+    background-color: black;
+}
+a:active{
+    background-color: aquamarine;
+    color: black;
+}
+
+body{
+    background-image: url(/images/sakura.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about{
+    background-image: url(/images/sakura.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contact{
+    background-image: url(/images/sakura.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer{
+    text-align: left;
+    background: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+}
+
+
+h2:first-line{
+    background-color: blue;
+}
